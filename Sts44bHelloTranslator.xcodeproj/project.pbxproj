@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		F47281D21BB11D210071F5E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47281D11BB11D210071F5E4 /* AppDelegate.swift */; };
-		F47281D41BB11D210071F5E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47281D31BB11D210071F5E4 /* ViewController.swift */; };
 		F47281D71BB11D210071F5E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F47281D51BB11D210071F5E4 /* Main.storyboard */; };
 		F47281D91BB11D210071F5E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F47281D81BB11D210071F5E4 /* Assets.xcassets */; };
 		F47281DC1BB11D210071F5E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F47281DA1BB11D210071F5E4 /* LaunchScreen.storyboard */; };
 		F47281E71BB11D210071F5E4 /* Sts44bHelloTranslatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47281E61BB11D210071F5E4 /* Sts44bHelloTranslatorTests.swift */; };
 		F47281F21BB11D210071F5E4 /* Sts44bHelloTranslatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47281F11BB11D210071F5E4 /* Sts44bHelloTranslatorUITests.swift */; };
+		F47282001BB11D640071F5E4 /* TranslatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47281FF1BB11D640071F5E4 /* TranslatorViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		F47281CE1BB11D210071F5E4 /* Sts44bHelloTranslator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sts44bHelloTranslator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F47281D11BB11D210071F5E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F47281D31BB11D210071F5E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F47281D61BB11D210071F5E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F47281D81BB11D210071F5E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F47281DB1BB11D210071F5E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		F47281ED1BB11D210071F5E4 /* Sts44bHelloTranslatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sts44bHelloTranslatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F47281F11BB11D210071F5E4 /* Sts44bHelloTranslatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sts44bHelloTranslatorUITests.swift; sourceTree = "<group>"; };
 		F47281F31BB11D210071F5E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F47281FF1BB11D640071F5E4 /* TranslatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslatorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				F47281D11BB11D210071F5E4 /* AppDelegate.swift */,
-				F47281D31BB11D210071F5E4 /* ViewController.swift */,
+				F47281FF1BB11D640071F5E4 /* TranslatorViewController.swift */,
 				F47281D51BB11D210071F5E4 /* Main.storyboard */,
 				F47281D81BB11D210071F5E4 /* Assets.xcassets */,
 				F47281DA1BB11D210071F5E4 /* LaunchScreen.storyboard */,
@@ -255,7 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F47281D41BB11D210071F5E4 /* ViewController.swift in Sources */,
+				F47282001BB11D640071F5E4 /* TranslatorViewController.swift in Sources */,
 				F47281D21BB11D210071F5E4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
